@@ -1,0 +1,25 @@
+- var cssPath = "assets/css/";
+- var jsPath = "assets/js/";
+
+doctype html
+html(lang='en')
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="x-ua-compatible", content="ie=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(name="description" content="description")
+        link(rel='stylesheet', href= cssPath + "main.css")
+        title Gulp
+    body
+        // header
+        include layout/header/_header.pug
+
+        // main content
+        include layout/main/_main.pug
+
+        // footer
+        include layout/footer/_footer.pug
+
+        // scripts
+        script(src= jsPath + "bundle.js")
+
