@@ -1,14 +1,14 @@
 # Gulp.js Sass, Pug, ES6 starter
 This is a simple starter for Sass, es6, pug.
 
-## Instructions:
-	$ npm install
-	$ npm start       -> for starting livereload server
-	$ npm run build   -> create and reduce files in ./dist 
+## Instructions: 
+- `$ npm install` - install packages  
+- `$ npm start` - run livereload server  
+- `$ npm run build` - create and reduce files in _./dist_  
 
-## Directories:
-### <strong>Development</strong> 
-<pre>
+## Directories:  
+### Development  
+``` javascript
     ./src
         |_ assets
             |_index.pug
@@ -25,17 +25,17 @@ This is a simple starter for Sass, es6, pug.
                 |_ _variables.sass
                 |_main.sass
             
-</pre>
+```
 
-### <strong>Production</strong> 
-<pre>
+### Production  
+```javascript
     ./dist
         |_ assets
             |_index.html
             |_img/
             |_fonts/
             |_js/
-                |_bundle.js  <i>// merge all files from <strong>src/assets/js/*</strong></i>
+                |_bundle.js // merge all files from src/assets/js/
             |_css/                                                       
                 |_ main.css
-</pre>
+```
